@@ -6,13 +6,21 @@ This is a Flask-based web application that supports user registration and login 
 🔧 **Features**
 
 🧑‍⚕️ Role-based signup for Patients and Doctors
+
 🔐 Login and session management
+
 📸 Profile picture upload
+
 🏠 Responsive user dashboard showing profile info
+
 📍 Address input (line, city, state, pincode)
+
 ✅ Password confirmation and frontend validation
+
 🎨 Clean, modern UI with custom CSS
+
 💾 In-memory storage (can be extended to database)
+
 
 📁 **Folder Structure**
 
@@ -39,12 +47,17 @@ project/
 5. Werkzeug (for secure file uploads)
 
 🚀 **How to Run**
+
 Clone the repository
+
 git clone https://github.com/your-username/your-repo-name.git
+
 cd your-repo-name
 
 **Install dependencies**
+
 pip install flask
+
 
 **Run the application**
 python app.py
