@@ -17,10 +17,6 @@ This is a Flask-based web application that supports user registration and login 
 
 ✅ Password confirmation and frontend validation
 
-🎨 Clean, modern UI with custom CSS
-
-💾 In-memory storage (can be extended to database)
-
 
 📁 **Folder Structure**
 
@@ -37,7 +33,7 @@ project/
 
 │   │   └── scripts.js
 
-│   └── uploads/         # Profile pictures stored here
+│   └── uploads/             # Profile pictures stored here
 
 ├── templates/
 
@@ -52,29 +48,34 @@ project/
 └── README.md
 
 🖥️ **Technologies Used**
+
 1. Python 3
+
 2. Flask
+
 3. HTML5 & CSS3
+
 4. JavaScript (basic form validation)
+
 5. Werkzeug (for secure file uploads)
 
 🚀 **How to Run**
 
 *Clone the repository**
 
---git clone https://github.com/your-username/your-repo-name.git
+-- git clone https://github.com/your-username/your-repo-name.git
 
---cd your-repo-name
+-- cd your-repo-name
 
 *Install dependencies**
 
---pip install flask
+-- pip install flask
 
 
 *Run the application**
 
---python app.py
+-- python app.py
 
 *Visit in browser**
 
---http://127.0.0.1:5000/
+-- http://127.0.0.1:5000/
