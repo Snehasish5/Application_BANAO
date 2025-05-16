@@ -1,7 +1,10 @@
 # Application_BANAO
 
-🩺 **User Authentication Web App (Patient & Doctor Portal)**
+🩺 **User Authentication Web App (Patient & Doctor Portal):**
+
 This is a Flask-based web application that supports user registration and login for two types of users: Patients and Doctors. After login, each user is redirected to their personalized dashboard that displays their profile details.
+
+
 
 🔧 **Features**
 
@@ -16,6 +19,8 @@ This is a Flask-based web application that supports user registration and login 
 📍 Address input (line, city, state, pincode)
 
 ✅ Password confirmation and frontend validation
+
+
 
 
 📁 **Folder Structure**
@@ -47,6 +52,8 @@ project/
 
 └── README.md
 
+
+
 🖥️ **Technologies Used**
 
 1. Python 3
@@ -59,13 +66,17 @@ project/
 
 5. Werkzeug (for secure file uploads)
 
+
+
 🚀 **How to Run**
+
 
 *Clone the repository**
 
 -- git clone https://github.com/your-username/your-repo-name.git
 
 -- cd your-repo-name
+
 
 *Install dependencies**
 
@@ -75,6 +86,7 @@ project/
 *Run the application**
 
 -- python app.py
+
 
 *Visit in browser**
 
