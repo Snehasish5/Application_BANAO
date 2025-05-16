@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ user['role'] }} Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>{{ user['role'] }} Dashboard</h2>
+        <img src="{{ url_for('static', filename='uploads/' + user['profile_pic']) }}" alt="Profile Picture">
+        <p><strong>Name:</strong> {{ user['first_name'] }} {{ user['last_name'] }}</p>
+        <p><strong>Username:</strong> {{ user['username'] }}</p>
+        <p><strong>Email:</strong> {{ user['email'] }}</p>
+        <p><strong>Address:</strong> {{ user['address']['line1'] }}, {{ user['address']['city'] }},
+            {{ user['address']['state'] }} - {{ user['address']['pincode'] }}</p>
+        <br>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>

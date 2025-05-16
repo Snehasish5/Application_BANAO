@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to the Healthcare Portal</h2>
+        <a href="{{ url_for('signup') }}">Signup</a> |
+        <a href="{{ url_for('login') }}">Login</a>
+    </div>
+</body>
+</html>
