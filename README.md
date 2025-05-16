@@ -26,17 +26,29 @@ This is a Flask-based web application that supports user registration and login 
 
 project/
 ├── app.py
+
 ├── static/
+
 │   ├── css/
+
 │   │   └── style.css
+
 │   ├── js/
+
 │   │   └── scripts.js
+
 │   └── uploads/         # Profile pictures stored here
+
 ├── templates/
+
 │   ├── index.html
+
 │   ├── signup.html
+
 │   ├── login.html
+
 │   └── dashboard.html
+
 └── README.md
 
 🖥️ **Technologies Used**
@@ -48,19 +60,21 @@ project/
 
 🚀 **How to Run**
 
-Clone the repository
+*Clone the repository**
 
-git clone https://github.com/your-username/your-repo-name.git
+--git clone https://github.com/your-username/your-repo-name.git
 
-cd your-repo-name
+--cd your-repo-name
 
-**Install dependencies**
+*Install dependencies**
 
-pip install flask
+--pip install flask
 
 
-**Run the application**
-python app.py
+*Run the application**
 
-**Visit in browser**
-http://127.0.0.1:5000/
+--python app.py
+
+*Visit in browser**
+
+--http://127.0.0.1:5000/
